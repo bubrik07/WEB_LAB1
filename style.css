@@ -1,0 +1,43 @@
+* {
+    font-family: 'Showcard Gothic', cursive !important;
+}
+body {
+    padding-top: 5%;
+    background: rgb(0, 5, 36);
+    background: linear-gradient(90deg, rgb(36, 0, 13) 0%, rgb(219, 4, 62) 35%, rgb(0, 34, 255) 100%);
+}
+
+h1 {
+    font-size: 74px !important;
+    color: black !important;
+    margin-top: 40px !important;
+}
+
+img {
+    width: 200px;
+    transform: rotate(10deg);
+}
+
+.logo-img {
+    margin-top: 50px;
+}
+
+.btn-block {
+    margin-top: 5%;
+    gap: 15px;
+}
+
+.btn-block .btn {
+    width: 200px;
+    box-sizing: border-box;
+    background: transparent;
+    border: 2px solid transparent;
+    padding: 10px 20px;
+    font-size: 30px !important;
+    transition: .2s;
+    color: black;
+}
+.btn-block .btn:hover {
+    border-color: black;
+    background: transparent;
+}
